@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>넷플릭스</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./js/lib/jquery-1.12.4.min.js"></script>
+  <script src="./js/lib/jquery.easing.1.3.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="container">
+        <div class="wrap">
+          <div class="logo">
+            <svg width="167px" height="45px" viewBox="0 0 111 30">
+              <path d="M 105.062 14.2806 L 110.999 30 C 109.249 29.7497 107.5 29.4367 105.718 29.1555 L 102.374 20.4686 L 98.9371 28.4375 C 97.25 28.1563 95.5928 28.0617 93.9057 27.8433 L 99.9372 14.0932 L 94.4681 -5.68434e-14 L 99.5313 -5.68434e-14 L 102.593 7.87422 L 105.875 -5.68434e-14 L 110.999 -5.68434e-14 L 105.062 14.2806 Z M 90.4687 -5.68434e-14 L 85.875 -5.68434e-14 L 85.875 27.25 C 87.3746 27.3437 88.9371 27.4056 90.4687 27.593 L 90.4687 -5.68434e-14 Z M 81.9055 26.9369 C 77.7186 26.6557 73.5308 26.4064 69.2502 26.3117 L 69.2502 -5.68434e-14 L 73.9366 -5.68434e-14 L 73.9366 21.8746 C 76.6248 21.9374 79.312 22.1558 81.9055 22.2804 L 81.9055 26.9369 Z M 64.2497 10.6561 L 64.2497 15.3435 L 57.8442 15.3435 L 57.8442 25.9996 L 53.2187 25.9996 L 53.2187 -5.68434e-14 L 66.3436 -5.68434e-14 L 66.3436 4.68741 L 57.8442 4.68741 L 57.8442 10.6561 L 64.2497 10.6561 Z M 45.3435 4.68741 L 45.3435 26.2499 C 43.781 26.2499 42.1876 26.2499 40.6561 26.3117 L 40.6561 4.68741 L 35.8122 4.68741 L 35.8122 -5.68434e-14 L 50.2184 -5.68434e-14 L 50.2184 4.68741 L 45.3435 4.68741 Z M 30.7498 15.5928 C 28.6878 15.5928 26.2499 15.5928 24.5 15.6875 L 24.5 22.6563 C 27.25 22.4679 30 22.2495 32.781 22.1558 L 32.781 26.6557 L 19.8125 27.6877 L 19.8125 -5.68434e-14 L 32.781 -5.68434e-14 L 32.781 4.68741 L 24.5 4.68741 L 24.5 10.9992 C 26.3127 10.9992 29.0936 10.9054 30.7498 10.9054 L 30.7498 15.5928 Z M 4.78114 12.9684 L 4.78114 29.343 C 3.09401 29.5314 1.5934 29.7497 0 30 L 0 -5.68434e-14 L 4.46902 -5.68434e-14 L 10.5624 17.0316 L 10.5624 -5.68434e-14 L 15.2498 -5.68434e-14 L 15.2498 28.0617 C 13.5936 28.3438 11.9065 28.4375 10.1247 28.6868 L 4.78114 12.9684 Z"></path>
+            </svg>
+          </div>
+          <div class="lang">            
+            <div class="select">
+              <i class="fa-solid fa-globe globe"></i>              
+              <button class="label">한국어</button>
+              <ul>
+                <li class="option">한국어</li>
+                <li class="option">English</li>
+              </ul>
+              <i class="fa-solid fa-sort-down down"></i>              
+            </div>                   
+          </div>
+          <a href="#" title="login">로그인</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="section1">
+        <div class="container">
+          <div class="background">
+            <div class="image"><img src="./img/section1_background.jpg" alt=""></div>            
+            <div class="gradient"></div>
+          </div>
+          <div class="text">
+            <h2>영화와 시리즈를<br> 무제한으로.</h2>
+            <h3>다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.</h3>
+            <form  autocomplete="off" action="./response.php" method="POST" name="submitForm" id="submitForm">
+              <h4>시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</h4>
+              <div class="email-box">
+                <label class="input-box" placeholder="Email">
+                  <input required type="email" name="email" id="id_email">
+                  <label for="id_email">이메일 주소</label>              
+                  <p class="guide-text error">* 이메일 주소를 입력해 주세요.</p>
+                </label>            
+                <div class="button-box">
+                  <button type="submit" class="submit-btn"><span>시작하기</span><span><i class="fa-solid fa-angle-right"></i></span></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="section2">
+        <div class="container">
+          <div class="item guide">
+            <i class="fa-solid fa-tablet-screen-button"></i>
+            <p>이용 방법</p>
+          </div>
+          <div class="item popular">
+            <i class="fa-solid fa-ranking-star"></i>
+            <p>인기 컨텐츠</p>
+          </div>
+          <div class="item price">
+            <i class="fa-solid fa-tags"></i>
+            <p>이용 가격</p>
+          </div>
+        </div>
+      </section>
+      <section id="section3">
+        <div class="container">
+          <div class="wrap">
+            <div class="one">
+              <div class="title">
+                <h2>TV로 즐기세요.</h2>                
+              </div>
+              <div class="image">
+                <img src="./img/section2_tv.png" alt="">
+                <div class="video-wrap">
+                  <video autoplay muted loop src="./video/video-tv-0819.m4v"></video>
+                </div>
+              </div>
+              <div class="content">
+                <p>스마트 TV, PlayStation, Xbox, Chromecast, Apple TV,<br> 블루레이 플레이어 등 다양한 디바이스에서 시청하세요.</p>
+              </div>
+            </div>
+            <div class="two">
+              <div class="title">
+                <h2>간편하게 저장하고 빈틈없이 즐겨보세요.</h2>                
+              </div>
+              <div class="image">
+                <img src="./img/section3_mobile-0819.jpg" alt="">
+                <div class="download">
+                  <div class="img">
+                    <img src="./img/section3_boxshot.png" alt="">
+                  </div>
+                  <div class="txt">
+                    <p class="title">기묘한 이야기</p>
+                    <p class="ing">저장 중...</p>
+                  </div>
+                  <div class="icon"></div>
+                </div>
+              </div>
+              <div class="content">                
+                <p>즐겨 보는 콘텐츠를 저장해 오프라인으로 시청하세요.</p>
+              </div>
+            </div>
+            <div class="three">
+              <div class="title">
+                <h2>다양한 디바이스에서 시청하세요.</h2>                
+              </div>
+              <div class="image">
+                <img src="./img/section4_device-pile.png" alt="">
+                <div class="video-wrap">
+                  <video autoplay muted loop src="./video/video-devices.m4v"></video>
+                </div>
+              </div>
+              <div class="content">
+                <p>각종 영화와 시리즈를 스마트폰, 태블릿, 노트북, TV에서<br> 무제한으로 스트리밍하세요. 추가 요금이 전혀 없습니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section4">
+        <div class="swipe-container">
+          <ul class="swipe-wrap">
+            <li class="swipe-slide 1">
+              <div class="img">
+                <img src="./img/section4_poster_stranger.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>기묘한 이야기</span>
+              </div>
+            </li>
+            <li class="swipe-slide 2">
+              <div class="img">
+                <img src="./img/section4_poster_squid.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>오징어 게임</span>
+              </div>
+            </li>
+            <li class="swipe-slide 3">
+              <div class="img">
+                <img src="./img/section4_poster_papel.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>종이의 집</span>
+              </div>
+            </li>
+            <li class="swipe-slide 4">
+              <div class="img">
+                <img src="./img/section4_poster_dp.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>D.P</span>
+              </div>
+            </li>
+            <li class="swipe-slide 5">
+              <div class="img">
+                <img src="./img/section4_poster_kingdom.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>킹덤</span>
+              </div>
+            </li>
+            <li class="swipe-slide 6">
+              <div class="img">
+                <img src="./img/section4_poster_home.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>스위트 홈</span>
+              </div>
+            </li>
+            <li class="swipe-slide 7">
+              <div class="img">
+                <img src="./img/section4_poster_sea.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>씨 비스트</span>
+              </div>
+            </li>
+            <li class="swipe-slide 8">
+              <div class="img">
+                <img src="./img/section4_poster_magic.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>안나라수나마라</span>
+              </div>
+            </li>
+            <li class="swipe-slide 9">
+              <div class="img">
+                <img src="./img/section4_poster_bridgerton.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>브리저튼</span>
+              </div>
+            </li>
+            <li class="swipe-slide 10">
+              <div class="img">
+                <img src="./img/section4_poster_umbrella.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>엄브렐라 아카데미</span>
+              </div>
+            </li>
+            <li class="swipe-slide 11">
+              <div class="img">
+                <img src="./img/section4_poster_gambit.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>퀸스갬빗</span>
+              </div>
+            </li>
+            <li class="swipe-slide 12">
+              <div class="img">
+                <img src="./img/section4_poster_krpapel.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>종이의 집:공동경제구역</span>
+              </div>
+            </li>
+            <li class="swipe-slide 13">
+              <div class="img">
+                <img src="./img/section4_poster_man.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>그레이 맨</span>
+              </div>
+            </li>
+            <li class="swipe-slide 14">
+              <div class="img">
+                <img src="./img/section4_poster_nanno.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>그녀의 이름은 난노</span>
+              </div>
+            </li>
+            <li class="swipe-slide 15">
+              <div class="img">
+                <img src="./img/section4_poster_judge.jpg" alt="">
+              </div>
+              <div class="info">
+                <span>소년심판</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="prev"><i class="fa-solid fa-angle-left left"></i></button>
+        <button class="next"><i class="fa-solid fa-angle-right right"></i></button>                            
+      </section>
+      <section id="section5">
+        <div class="container">
+          <div class="wrap">
+            <div class="item">
+              <h2>요금제</h2>
+              <ul>
+                <li>월 요금</li>
+                <li>영상 화질</li>
+                <li>해상도</li>
+                <li>동시접속 가능인원</li>
+                <li>TV,컴퓨터,스마트폰,태블릿으로 시청</li>
+                <li>광고없이 무제한으로 시청</li>
+                <li>언제든 멤버십 변경 또는 해지 가능</li>
+                <li>첫 달 무료이용</li>
+              </ul>
+            </div>
+            <div class="basic">
+              <h2>베이식</h2>
+              <ul>
+                <li>9,500원</li>
+                <li>좋음</li>
+                <li>480p</li>
+                <li>1</li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+              </ul>      
+            </div>
+            <div class="standard">
+              <h2>스탠다드</h2>
+              <ul>
+                <li>13,500원</li>
+                <li>매우 좋음</li>
+                <li>1080p</li>
+                <li>2</li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+              </ul>
+            </div>
+            <div class="premium">
+              <h2>프리미엄</h2>
+              <ul>
+                <li>17,000원</li>
+                <li>가장 좋음</li>
+                <li>4K+HDR</li>
+                <li>4</li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer id="footer">
+      <div class="container">
+        <div class="wrap">
+          <div class="top">
+            <h1>질문이 있으신가요?</h1>
+            <span>문의전화 : <span class="call">080-001-9587</span></span>
+          </div>          
+          <ul class="fnb">
+            <li><a href="#">자주 묻는 질문</a></li>
+            <li><a href="#">고객 센터</a></li>
+            <li><a href="#">계정</a></li>
+            <li><a href="#">미디어 센터</a></li>
+            <li><a href="#">투자 정보(IR)</a></li>
+            <li><a href="#">입사 정보</a></li>
+            <li><a href="#">넷플릭스 지원 디바이스</a></li>
+            <li><a href="#">이용 약관</a></li>
+            <li><a href="#">개인정보</a></li>
+            <li><a href="#">쿠키 설정</a></li>
+            <li><a href="#">회사 정보</a></li>
+            <li><a href="#">문의하기</a></li>
+            <li><a href="#">속도테스트</a></li>
+            <li><a href="#">법적고지</a></li>
+            <li><a href="#">오직 넷플릭스에서</a></li>
+          </ul>          
+          <div class="lang">            
+            <div class="select">
+              <i class="fa-solid fa-globe globe"></i>              
+              <button class="label">한국어</button>
+              <ul>
+                <li class="option">한국어</li>
+                <li class="option">English</li>
+              </ul>
+              <i class="fa-solid fa-sort-down down"></i>              
+            </div>                   
+          </div>          
+          <div class="copywrite">
+            <p>넷플릭스 대한민국</p>
+            <ul>
+              <li><span>넷플릭스서비시스코리아 유한회사 통신판매업신고번호 : 제2018-서울종로-0426호</span></li>
+              <li><span>대표 : 레지널드 숀 톰프슨</span></li>
+              <li><span>전화번호 : 080-001-9587</span></li>
+              <li><span>이메일 주소 : korea@netflix.com</span></li>
+              <li><span>주소 : 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161</span></li>
+              <li><span>사업자등록번호 : 165-87-00119</span></li>
+              <li><span>클라우드 호스팅 : Amazon Web Services Inc.</span></li>
+              <li><a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1658700119">공정거래위원회 웹사이트</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <modal id="modal">
+      <div class="container">
+        <div class="video">
+          <iframe id="video" width="800" height="500" src="https://www.youtube.com/embed/AZR9143LSoo?rel=0" title="기묘한 이야기-예고편1-Netflix[HD]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+        </div>
+        <div class="info">
+          <div class="release">
+            <span>2022</span>
+            <div class="age"><span>15</span></div>
+            <span>시즌 4개</span>
+            <div class="screen"><span>HD</span></div>
+          </div>
+          <ul class="genre">
+            <h2>장르 :</h2>
+            <li><span>SF 시리즈</span></li>
+            <li class="comma"><span>,</span></li>
+            <li><span>청소년 시리즈</span></li>
+            <li class="comma"><span>,</span></li>
+            <li><span>호러 시리즈</span></li>
+          </ul>
+          <ul class="in">
+            <h2>출연 :</h2>
+            <li><span>위노나 라이더</span></li>
+            <li class="comma"><span>,</span></li>
+            <li><span>데이비드 하버</span></li>
+            <li class="comma"><span>,</span></li>
+            <li><span>밀리 바비 브라운</span></li>
+            <li class="comma"><span>,</span></li>
+            <li><span class="button">더보기<i class="fa-solid fa-chevron-right"></i></span></button>
+          </ul>
+          <div class="text">
+            <p>
+              인디애나주의 작은 마을에서 행방불명된 소년.              
+              이와 함께 미스터리한 힘을 가진 소녀가 나타나고,              
+              마을에는 기묘한 현상들이 일어나기 시작한다.               
+              아들을 찾으려는 엄마와 마을 사람들은 이제 정부의 일급비밀<br> 실험의 실체와 무시무시한 기묘한 현상들에 맞서야 한다.
+            </p>
+          </div>
+        </div>
+        <div class="close">
+          <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </div>
+    </modal>
+
+  </div>
+
+  <script src="./js/Netfilx.js"></script>
+</body>
+</html>

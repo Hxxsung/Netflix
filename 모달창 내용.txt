@@ -1,0 +1,191 @@
+<div class="box box1">
+  <div class="video">
+    <iframe id="video" width="800" height="500" src="https://www.youtube.com/embed/AZR9143LSoo?rel=0" title="기묘한 이야기-예고편1-Netflix[HD]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+  </div>
+  <div class="info">
+    <div class="release">
+      <span>2022</span>
+      <div class="age"><span>15</span></div>
+      <span>시즌 4개</span>
+      <div class="screen"><span>HD</span></div>
+    </div>
+    <ul class="genre">
+      <h2>장르 :</h2>
+      <li><span>SF 시리즈</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>청소년 시리즈</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>호러 시리즈</span></li>
+    </ul>
+    <ul class="in">
+      <h2>출연 :</h2>
+      <li><span>위노나 라이더</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>데이비드 하버</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>밀리 바비 브라운</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span class="button">더보기<i class="fa-solid fa-chevron-right"></i></span></button>
+    </ul>
+    <div class="text">
+      <p>
+        인디애나주의 작은 마을에서 행방불명된 소년.              
+        이와 함께 미스터리한 힘을 가진 소녀가 나타나고,              
+        마을에는 기묘한 현상들이 일어나기 시작한다.               
+        아들을 찾으려는 엄마와 마을 사람들은 이제 정부의 일급비밀<br> 실험의 실체와 무시무시한 기묘한 현상들에 맞서야 한다.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="box box2">
+  <div class="video">
+    <iframe id="video" width="800" height="500" src="https://www.youtube.com/embed/b96oSVw75lA" title="오징어 게임 | 공식 예고편 | 넷플릭스" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+  </div>
+  <div class="info">
+    <div class="release">
+      <span>2021</span>
+      <div class="age"><span>18</span></div>
+      <span>시즌 1개</span>
+      <div class="screen"><span>HD</span></div>
+    </div>
+    <ul class="genre">
+      <h2>장르 :</h2>
+      <li><span>한국 드라마</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>스릴러 시리즈</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>드라마</span></li>
+    </ul>
+    <ul class="in">
+      <h2>출연 :</h2>
+      <li><span>이정재</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>박해수</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>위하준</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span class="button">더보기<i class="fa-solid fa-chevron-right"></i></span></button>
+    </ul>
+    <div class="text">
+      <p>
+        빚에 쫓기는 수백 명의 사람들이 서바이벌 게임에 뛰어든다. 
+        거액의 상금으로 새로운 삶을 시작하기 위해. 
+        하지만 모두 승자가 될 순 없는 법. 
+        탈락하는 이들은 치명적인 결과를 각오해야 한다.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="box box3">
+  <div class="video">
+    <iframe  id="video" width="800" height="500" src="https://www.youtube.com/embed/eOpran1Atls" title="종이의 집 | 시리즈 예고편 | 넷플릭스" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="info">
+    <div class="release">
+      <span>2022</span>
+      <div class="age"><span>18</span></div>
+      <span>시즌 5개</span>
+      <div class="screen"><span>HD</span></div>
+    </div>
+    <ul class="genre">
+      <h2>장르 :</h2>
+      <li><span>범죄 시리즈</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>스페인 작품</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>스릴러 시리즈</span></li>
+    </ul>
+    <ul class="in">
+      <h2>출연 :</h2>
+      <li><span>우르술라 코르베로</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>알바로 모르테</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>이치아르 이투뇨</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span class="button">더보기<i class="fa-solid fa-chevron-right"></i></span></button>
+    </ul>
+    <div class="text">
+      <p>
+        1명의 천재, 8명의 공범, 철저히 준비한 세기의 강도.
+        스페인 조폐국에서 인질극까지 벌인 이들은 과연 포위 경찰을 따돌리고 거액의 돈과 함께 달아날 수 있을까?
+      </p>
+    </div>
+  </div>
+</div>
+<div class="box box4">
+  <div class="video">            
+    <iframe id="video" width="800" height="500" src="https://www.youtube.com/embed/tngyy2UcWuI" title="D.P. | 디피 메인 예고편 | 넷플릭스" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="info">
+    <div class="release">
+      <span>2021</span>
+      <div class="age"><span>15</span></div>
+      <span>시즌 1개</span>
+      <div class="screen"><span>HD</span></div>
+    </div>
+    <ul class="genre">
+      <h2>장르 :</h2>
+      <li><span>웹툰 원작 한국 드라마</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>한국 드라마</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>사회 문제를 다룬 드라마</span></li>
+    </ul>
+    <ul class="in">
+      <h2>출연 :</h2>
+      <li><span>정해인</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>구교환</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>김성균</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span class="button">더보기<i class="fa-solid fa-chevron-right"></i></span></button>
+    </ul>
+    <div class="text">
+      <p>
+        탈영병을 잡는다. 이등병 준호에게 떨어진 새로운 임무. 
+        그는 탈영병들을 추적하며 지독하게 고통스러운 현실을 마주한다. 
+        그리고 아무리 도망쳐도 벗어날 수 없다는 것도 알게 된다.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="box box5">
+  <div class="video">            
+    <iframe id="video" width="800" height="500" src="https://www.youtube.com/embed/JeCm_7YlqMc" title="킹덤 | 티저 예고편 [HD] | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="info">
+    <div class="release">
+      <span>2020</span>
+      <div class="age"><span>18</span></div>
+      <span>시즌 2개</span>
+      <div class="screen"><span>HD</span></div>
+    </div>
+    <ul class="genre">
+      <h2>장르 :</h2>
+      <li><span>한국 드라마</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>정치 시리즈</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>호러 시리즈</span></li>                            
+    </ul>
+    <ul class="in">
+      <h2>출연 :</h2>
+      <li><span>주지훈</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>류승룡</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span>배두나</span></li>
+      <li class="comma"><span>,</span></li>
+      <li><span class="button">더보기<i class="fa-solid fa-chevron-right"></i></span></button>
+    </ul>
+    <div class="text">
+      <p>
+        병든 왕을 둘러싸고 흉흉한 소문이 떠돈다. 
+        어둠에 뒤덮인 조선, 기이한 역병에 신음하는 산하. 
+        정체 모를 악에 맞서 백성을 구원할 희망은 오직 세자뿐이다.
+      </p>
+    </div>
+  </div>
+</div>
